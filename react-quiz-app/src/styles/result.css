@@ -1,0 +1,38 @@
+.result-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff8e6;
+}
+
+.result-card {
+  background: white;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.score {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #ff9a00;
+}
+
+.restart-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  background: #ff9a00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.restart-btn:hover {
+  background: #d88400;
+}
